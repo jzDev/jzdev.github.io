@@ -1,0 +1,20 @@
+{
+  "name": "jzdev.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzDev/jzdev.github.io.git"
+  },
+  "keywords": [],
+  "author": "Johnny Zarate <jzdev0@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jzDev/jzdev.github.io/issues"
+  },
+  "homepage": "https://github.com/jzDev/jzdev.github.io#readme"
+}
