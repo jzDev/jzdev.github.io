@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <!-- META tags -->
@@ -7,9 +8,43 @@
   <!-- viewport element gives the browser instructions on how to control the page's dimensions and scaling -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- LINK tags -->
-  <link rel="stylesheet" href="main.css">
 </head>
 <body>
+  <style>
+    *, *:before, *:after {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-size: 18px;
+      margin: 0px;
+    }
+
+    .page-slide {
+      height: 100vh;
+      padding: 2em;
+      position: relative;
+      width: 100%;
+    }
+
+    .main-slide {
+      background-color: #D22222;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    @media (min-width: 768px) {
+      body {
+        font-size: 16px;
+      }
+
+      .page-slide {
+        height: 70vh;
+      }
+    }
+  </style>
   <!-- Haha, there's actually a hidden comment, but still nothing else -->
   <div class="main-container">
     <div class="page-slide main-slide">
